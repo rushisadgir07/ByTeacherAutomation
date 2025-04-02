@@ -76,8 +76,6 @@ public class validateStatusTest extends BaseClass {
 		Reporter.log("Student Status validated successfully");
 		NewUtilityStudy.screenshot(driver, "learnerAdded");
 		}
-	
-	
 
 	@AfterMethod
 	public void loggingOut() throws InterruptedException {

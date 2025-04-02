@@ -62,8 +62,4 @@ public class LearnerTest extends NewBase {
 		driver.quit();
 	}
 
-	public void closeBrowser() throws InterruptedException {
-
-	}
-
 }
