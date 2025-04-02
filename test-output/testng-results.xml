@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Reading url from property File]]>
+    </line>
+    <line>
+      <![CDATA[Launching the browser]]>
+    </line>
+    <line>
+      <![CDATA[Learner added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Taking Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success...]]>
+    </line>
+    <line>
+      <![CDATA[WebDriver instance is null. Cannot capture screenshot.]]>
+    </line>
+    <line>
+      <![CDATA[Learner added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Taking Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success...]]>
+    </line>
+    <line>
+      <![CDATA[WebDriver instance is null. Cannot capture screenshot.]]>
+    </line>
+    <line>
+      <![CDATA[TC is Failed Please Check]]>
+    </line>
+    <line>
+      <![CDATA[WebDriver instance is null. Cannot capture screenshot.]]>
+    </line>
+    <line>
+      <![CDATA[Student Status is: ACTIVE]]>
+    </line>
+    <line>
+      <![CDATA[Student Status validated successfully]]>
+    </line>
+    <line>
+      <![CDATA[Taking Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success...]]>
+    </line>
+    <line>
+      <![CDATA[WebDriver instance is null. Cannot capture screenshot.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-04-01T11:37:38 IST" name="Default suite" finished-at="2025-04-01T11:38:35 IST" duration-ms="56526">
+    <groups>
+    </groups>
+    <test started-at="2025-04-01T11:37:38 IST" name="Default test" finished-at="2025-04-01T11:38:35 IST" duration-ms="56526">
+      <class name="learnerAllTest.validateStatusTest">
+        <test-method is-config="true" signature="launch()[pri:0, instance:learnerAllTest.validateStatusTest@35841320]" started-at="2025-04-01T11:37:38 IST" name="launch" finished-at="2025-04-01T11:37:52 IST" duration-ms="13759" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading url from property File]]>
+            </line>
+            <line>
+              <![CDATA[Launching the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="login()[pri:0, instance:learnerAllTest.validateStatusTest@35841320]" started-at="2025-04-01T11:37:52 IST" name="login" finished-at="2025-04-01T11:37:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addLearner()[pri:1, instance:learnerAllTest.validateStatusTest@35841320]" started-at="2025-04-01T11:37:52 IST" name="addLearner" finished-at="2025-04-01T11:38:04 IST" duration-ms="12046" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Learner added successfully]]>
+            </line>
+            <line>
+              <![CDATA[Taking Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success...]]>
+            </line>
+            <line>
+              <![CDATA[WebDriver instance is null. Cannot capture screenshot.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addLearner -->
+        <test-method is-config="true" signature="loggingOut()[pri:0, instance:learnerAllTest.validateStatusTest@35841320]" started-at="2025-04-01T11:38:04 IST" name="loggingOut" finished-at="2025-04-01T11:38:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggingOut -->
+        <test-method is-config="true" signature="login()[pri:0, instance:learnerAllTest.validateStatusTest@35841320]" started-at="2025-04-01T11:38:04 IST" name="login" finished-at="2025-04-01T11:38:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="assigAcademicDetails()[pri:2, instance:learnerAllTest.validateStatusTest@35841320]" started-at="2025-04-01T11:38:04 IST" name="assigAcademicDetails" finished-at="2025-04-01T11:38:31 IST" duration-ms="26523" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Learner added successfully]]>
+            </line>
+            <line>
+              <![CDATA[Taking Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success...]]>
+            </line>
+            <line>
+              <![CDATA[WebDriver instance is null. Cannot capture screenshot.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- assigAcademicDetails -->
+        <test-method is-config="true" signature="loggingOut()[pri:0, instance:learnerAllTest.validateStatusTest@35841320]" started-at="2025-04-01T11:38:31 IST" name="loggingOut" finished-at="2025-04-01T11:38:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggingOut -->
+        <test-method is-config="true" signature="login()[pri:0, instance:learnerAllTest.validateStatusTest@35841320]" started-at="2025-04-01T11:38:31 IST" name="login" finished-at="2025-04-01T11:38:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="activeStudent()[pri:3, instance:learnerAllTest.validateStatusTest@35841320]" started-at="2025-04-01T11:38:31 IST" name="activeStudent" finished-at="2025-04-01T11:38:33 IST" duration-ms="2552" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Activate Account']"}
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d89e4e10fb06f2d6531983c04267447, findElement {using=xpath, value=//span[text()='Activate Account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\RUSHIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65153}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65153/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d89e4e10fb06f2d6531983c04267447]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Activate Account']"}
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d89e4e10fb06f2d6531983c04267447, findElement {using=xpath, value=//span[text()='Activate Account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\RUSHIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65153}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65153/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d89e4e10fb06f2d6531983c04267447
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at learner.ActiveStudent.activeStudent(ActiveStudent.java:40)
+at learnerAllTest.validateStatusTest.activeStudent(validateStatusTest.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[TC is Failed Please Check]]>
+            </line>
+            <line>
+              <![CDATA[WebDriver instance is null. Cannot capture screenshot.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- activeStudent -->
+        <test-method is-config="true" signature="loggingOut()[pri:0, instance:learnerAllTest.validateStatusTest@35841320]" started-at="2025-04-01T11:38:33 IST" name="loggingOut" finished-at="2025-04-01T11:38:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggingOut -->
+        <test-method is-config="true" signature="login()[pri:0, instance:learnerAllTest.validateStatusTest@35841320]" started-at="2025-04-01T11:38:33 IST" name="login" finished-at="2025-04-01T11:38:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="validateStatus()[pri:4, instance:learnerAllTest.validateStatusTest@35841320]" started-at="2025-04-01T11:38:33 IST" name="validateStatus" finished-at="2025-04-01T11:38:35 IST" duration-ms="1532" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Student Status is: ACTIVE]]>
+            </line>
+            <line>
+              <![CDATA[Student Status validated successfully]]>
+            </line>
+            <line>
+              <![CDATA[Taking Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success...]]>
+            </line>
+            <line>
+              <![CDATA[WebDriver instance is null. Cannot capture screenshot.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateStatus -->
+        <test-method is-config="true" signature="loggingOut()[pri:0, instance:learnerAllTest.validateStatusTest@35841320]" started-at="2025-04-01T11:38:35 IST" name="loggingOut" finished-at="2025-04-01T11:38:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggingOut -->
+      </class> <!-- learnerAllTest.validateStatusTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

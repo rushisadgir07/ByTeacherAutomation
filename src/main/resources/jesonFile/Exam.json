@@ -1,0 +1,22 @@
+{
+"ExamDetails" :[{
+			"ValidAssesmentTypes": ["assignment", "exam", "Test"],
+			"assesmentType": "Exam",
+			"assesmentName": "new Exam",
+			"totalMarks" : "30",  
+			"passingMarks" : "3",
+			"startDate": "04/02/2025",
+			"endDate": "05/02/2025",
+			"ExamDuration": "15",
+			"EnterQuestion": "15",
+			"Positivemark":"2",
+			"Instruction": "uitysywfddfsahgfsadf afds fhjadfsjasd",
+			"numberquestion1": "5",
+			"numberquestion2": "5",
+			"numberquestion3": "5",
+			"ValidQuestionTypes": ["Numerical", "scq"],
+			"QuestionType": "scq",
+			"ExamdeadLine": "02-04-2025"
+			
+}]
+}

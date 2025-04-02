@@ -1,0 +1,21 @@
+{
+"Staff": [{
+            "StaffFirstName": "Kiran",
+            "StaffLastName": "Sathe",
+            "StaffEmail": "kiransathe021@gmail.com",
+            "StaffMobile": "9871287622"
+  }],
+  "Teacher": [{
+            "TeacherFirstName": "Tanvi",
+            "TeacherLastName": "rathod",
+            "TeacherEmail": "tanvirathod224@gmail.com",
+            "TeacherMobile": "9876789800"
+  }],
+  "Parent": [{
+            "ParentFirstName": "Rutik",
+            "ParentLastName": "Kale",
+            "ParentEmail": "kalerutik1234@gmail.com",
+            "ParentMobile": "9278009811",
+            "Parentgender":"male"
+  }]
+  }

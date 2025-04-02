@@ -1,0 +1,21 @@
+{
+"ExamDetails" :[{
+			"ValidAssesmentTypes": ["assignment", "exam", "test"],
+			"assesmentType": "test",
+			"assesmentName": "new exam 0611",
+			"totalMarks" : "30",  
+			"passingMarks" : "3",
+			"startDate": "02/19/2025",
+			"endDate": "02/20/2025",
+			"ExamDuration": "15",
+			"Positivemark":"2",
+			"Instruction": "uitysywfddfsahgfsadf afds fhjadfsjasd",
+			"scqquestion": "4",
+			"mcqquestion": "5",					
+			"numericquestion": "6",
+			"ValidQuestionTypes": ["Numerical", "scq"],
+			"QuestionType": "scq",
+			"ExamdeadLine": "19-02-2025"
+			
+}]
+}

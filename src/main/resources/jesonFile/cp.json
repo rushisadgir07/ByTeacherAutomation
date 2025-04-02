@@ -1,0 +1,13 @@
+
+{
+"CoursePlanner" :[{
+"CoursePName": "Manual Physics CP11",
+"UnitName": "Unit 1",
+"ChapterName": "Chapter1",
+"TopicName": "Topic 1",
+"SubTopicName": "SubTopic 1"
+}],
+"ImportCoursePlanner" :[{
+"CoursePName": "Import Auto Physics CP33"
+}]
+}
