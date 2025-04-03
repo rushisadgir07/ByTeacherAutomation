@@ -17,7 +17,7 @@ public class Subject {
 	private WebElement subject;
 	@FindBy(xpath = "//span[text()='Add Subjects']")
 	private WebElement addSub;
-	@FindBy(xpath = "(//div[@class='ng-input'])[8]")
+	@FindBy(xpath = "(//div[text()='Course'])")
 	private WebElement Course;
 	@FindBy(xpath = "//div[@class='ng-option ng-option-marked ng-star-inserted']")
 	private WebElement selectCourse;
@@ -56,7 +56,8 @@ public class Subject {
 		Thread.sleep(1000);
 		subject.click();
 		addSub.click();
-		Course.click();
+		Thread.sleep(2000);
+		act.click(Course).build().perform();
 		selectCourse.click();
 		Thread.sleep(1000);
 		act.clickAndHold(chemSub).dragAndDrop(chemSub, compulsory).build().perform();

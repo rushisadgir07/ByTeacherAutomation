@@ -24,17 +24,17 @@ public class Batch {
 	private WebElement batch;
 	@FindBy(xpath = "//span[text()='Add Batch']")
 	private WebElement addBatch;
-	@FindBy(xpath = "(//span[@class='ng-arrow-wrapper'])[8]")
+	@FindBy(xpath = "(//span[@class='ng-arrow-wrapper'])[9]")
 	private WebElement selectC;
 	@FindBy(xpath = "(//span[@class='ng-option-label ng-star-inserted'])[1]")
 	private WebElement selectCourse;
-	@FindBy(xpath = "(//span[@class='ng-arrow-wrapper'])[9]")
+	@FindBy(xpath = "(//span[@class='ng-arrow-wrapper'])[10]")
 	private WebElement selectB;
 	@FindBy(xpath = "(//span[@class='ng-option-label ng-star-inserted'])[1]")
 	private WebElement selectBranch;
 	@FindBy(xpath = "//input[@placeholder='Enter batch']")
 	private WebElement enterName;
-	@FindBy(xpath = "(//button[text()='Save'])[2]")
+	@FindBy(xpath = "(//button[text()='Save'])[3]")
 	private WebElement savebutton;
 	@FindBy(xpath = "(//img[@src='../../../../../assets/Icons/Icon edit.svg'])[20]")
 	private WebElement editbutton;
@@ -69,7 +69,7 @@ public class Batch {
 		Thread.sleep(1000);
 		batch.click();
 		addBatch.click();
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		act.click(selectC).build().perform();
 		//selectC.click();
 		selectCourse.click();

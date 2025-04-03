@@ -51,8 +51,8 @@ public class EditClassRoom {
 	private WebElement update;
 	@FindBy(xpath = "//img[@src='../assets/Icons/timetable/DeleteIcon.svg']")
 	private WebElement delete;
-	@FindBy(xpath = "//span[text()='Remove']")
-	private WebElement removeClick;
+	@FindBy(xpath = "//button[text()='Remove']")
+	private WebElement remove;
 
 	private JSONParser jsonParser = new JSONParser();
 
@@ -108,7 +108,7 @@ public class EditClassRoom {
 		editClassroom.click();
 		Thread.sleep(1500);
 		delete.click();
-		removeClick.click();
+		remove.click();
 		Thread.sleep(2000);
 
 	}

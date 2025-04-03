@@ -35,7 +35,7 @@ public class AcademicSession {
 	private WebElement updatebutton;
 	@FindBy(xpath = "//span[@class='deletIcon ng-star-inserted']")
 	private WebElement delete;
-	@FindBy(xpath = "//span[@class='btn common-btn']")
+	@FindBy(xpath = "//button[text()='Remove']")
 	private WebElement remove;
 	@FindBy(xpath = "(//button[@class='closePopup'])[1]")
 	private WebElement closeButton;

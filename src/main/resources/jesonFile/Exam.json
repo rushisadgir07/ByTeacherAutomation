@@ -5,8 +5,8 @@
 			"assesmentName": "new Exam",
 			"totalMarks" : "30",  
 			"passingMarks" : "3",
-			"startDate": "04/02/2025",
-			"endDate": "05/02/2025",
+			"startDate": "04/04/2025",
+			"endDate": "05/04/2025",
 			"ExamDuration": "15",
 			"EnterQuestion": "15",
 			"Positivemark":"2",
@@ -16,7 +16,7 @@
 			"numberquestion3": "5",
 			"ValidQuestionTypes": ["Numerical", "scq"],
 			"QuestionType": "scq",
-			"ExamdeadLine": "02-04-2025"
+			"ExamdeadLine": "04-04-2025"
 			
 }]
 }
