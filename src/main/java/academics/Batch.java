@@ -65,13 +65,13 @@ public class Batch {
 	}
 
 	public void addBatch() throws InterruptedException {
-		//academic.click();
+		// academic.click();
 		Thread.sleep(1000);
 		batch.click();
 		addBatch.click();
 		Thread.sleep(2000);
 		act.click(selectC).build().perform();
-		//selectC.click();
+		// selectC.click();
 		selectCourse.click();
 		selectB.click();
 		selectBranch.click();

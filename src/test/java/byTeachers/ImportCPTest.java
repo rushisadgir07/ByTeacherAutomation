@@ -15,7 +15,7 @@ public class ImportCPTest extends BaseClass {
 
 	Homepage ho;
 	ImportCP cp;
-	
+
 	@BeforeClass
 
 	public void launch12() throws InterruptedException, ParseException, IOException {

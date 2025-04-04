@@ -27,18 +27,18 @@ public class validateStatusTest extends BaseClass {
 	Teacher t;
 	AssignAcademicDetails ad;
 	ActiveStudent as;
-	//private String browser;
+	// private String browser;
 
 	@BeforeClass
 //	@Parameters("browser")
 	public void launch() throws InterruptedException, ParseException, IOException {
-	//	this.browser = browser;
+		// this.browser = browser;
 		launchB();
 		ho = new Homepage(driver);
 		le = new Learner(driver);
-		ad=new AssignAcademicDetails(driver);
+		ad = new AssignAcademicDetails(driver);
 		t = new Teacher(driver);
-		as=new ActiveStudent(driver);
+		as = new ActiveStudent(driver);
 		ho.jsonRead();
 		ho.login();
 	}
@@ -56,6 +56,7 @@ public class validateStatusTest extends BaseClass {
 		Reporter.log("Learner added successfully");
 		NewUtilityStudy.screenshot(driver, "learnerAdded");
 	}
+
 	@Test(priority = 2)
 	public void assigAcademicDetails() throws IOException, ParseException, InterruptedException {
 		ad.jsonRead();
@@ -63,6 +64,7 @@ public class validateStatusTest extends BaseClass {
 		Reporter.log("Learner added successfully");
 		NewUtilityStudy.screenshot(driver, "learnerAdded");
 	}
+
 	@Test(priority = 3)
 	public void activeStudent() throws IOException, ParseException, InterruptedException {
 		as.activeStudent();
@@ -70,20 +72,17 @@ public class validateStatusTest extends BaseClass {
 		NewUtilityStudy.screenshot(driver, "learnerAdded");
 		ad.secondCourse();
 	}
+
 	@Test(priority = 4)
 	public void validateStatus() throws IOException, ParseException, InterruptedException {
 		as.ValidateStatus();
 		Reporter.log("Student Status validated successfully");
 		NewUtilityStudy.screenshot(driver, "learnerAdded");
-		}
+	}
 
 	@AfterMethod
 	public void loggingOut() throws InterruptedException {
-		driver.quit();
-	}
-
-	public void closeBrowser() throws InterruptedException {
-
+		driver.close();
 	}
 
 }

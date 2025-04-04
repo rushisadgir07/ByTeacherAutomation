@@ -57,11 +57,7 @@ public class RemoveCourseTest extends BaseClass {
 
 	@AfterMethod
 	public void loggingOut() throws InterruptedException {
-		driver.quit();
-	}
-
-	public void closeBrowser() throws InterruptedException {
-
+		driver.close();
 	}
 
 }

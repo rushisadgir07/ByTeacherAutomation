@@ -90,10 +90,10 @@ public class AcademicAddTest extends BaseClass {
 		cr.addnormlVClassroom();
 		NewUtilityStudy.screenshot(driver, "ClassroomAdded");
 	}
-//
-//	@AfterClass
-//	public void afterClass() {
-//		driver.close();
-//	}
+
+	@AfterClass
+	public void afterClass() {
+		driver.close();
+	}
 
 }

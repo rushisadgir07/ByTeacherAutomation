@@ -26,15 +26,15 @@ import utilityStudy.NewUtilityStudy;
 public class ConverToAlumniTest extends BaseClass {
 	Homepage ho;
 	BatchChange bc;
-	//private String browser;
+	// private String browser;
 
 	@BeforeClass
 //	@Parameters("browser")
 	public void launch() throws InterruptedException, ParseException, IOException {
-	//	this.browser = browser;
+		// this.browser = browser;
 		launchB();
 		ho = new Homepage(driver);
-		bc=new BatchChange(driver);
+		bc = new BatchChange(driver);
 		ho.jsonRead();
 		ho.login();
 	}
@@ -52,16 +52,10 @@ public class ConverToAlumniTest extends BaseClass {
 		Reporter.log("Converted into alumni successfully");
 		NewUtilityStudy.screenshot(driver, "learnerAdded");
 	}
-	
-	
 
 	@AfterMethod
 	public void loggingOut() throws InterruptedException {
-		//driver.quit();
-	}
-
-	public void closeBrowser() throws InterruptedException {
-
+		driver.close();
 	}
 
 }

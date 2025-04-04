@@ -36,10 +36,10 @@ public class LearnerTest extends NewBase {
 		launchingbrowser(browser);
 		ho = new Homepage(driver);
 		le = new Learner(driver);
-		ad=new AssignAcademicDetails(driver);
+		ad = new AssignAcademicDetails(driver);
 		t = new Teacher(driver);
-		as=new ActiveStudent(driver);
-		
+		as = new ActiveStudent(driver);
+
 	}
 
 	@BeforeMethod
@@ -59,7 +59,7 @@ public class LearnerTest extends NewBase {
 
 	@AfterMethod
 	public void loggingOut() throws InterruptedException {
-		driver.quit();
+		driver.close();
 	}
 
 }

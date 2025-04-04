@@ -57,11 +57,8 @@ public class BatchChangeTest extends BaseClass {
 
 	@AfterMethod
 	public void loggingOut() throws InterruptedException {
-		driver.quit();
+		driver.close();
 	}
 
-	public void closeBrowser() throws InterruptedException {
-
-	}
-
+	
 }
