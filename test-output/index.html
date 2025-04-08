@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Rushikesh Sadgir\AppData\Local\Temp\testng-eclipse-212127595\testng-customsuite.xml</span>
+                    <span>C:\Users\Rushikesh Sadgir\AppData\Local\Temp\testng-eclipse--1329007998\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Default_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="learnerAllTest.validateStatusTest" class="method navigator-link" hash-for-method="activeStudent">activeStudent</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,17 +103,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="learnerAllTest.validateStatusTest" class="method navigator-link" hash-for-method="addLearner">addLearner</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="assesment.AssesmentTest" class="method navigator-link" hash-for-method="createAssesment">createAssesment</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="learnerAllTest.validateStatusTest" class="method navigator-link" hash-for-method="assigAcademicDetails">assigAcademicDetails</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="assesment.AssesmentTest" class="method navigator-link" hash-for-method="createTrack">createTrack</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="learnerAllTest.validateStatusTest" class="method navigator-link" hash-for-method="validateStatus">validateStatus</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="assesment.AssesmentTest" class="method navigator-link" hash-for-method="examPublish">examPublish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assesment.AssesmentTest" class="method navigator-link" hash-for-method="fillTrack">fillTrack</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -142,106 +133,38 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">learnerAllTest.validateStatusTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="activeStudent">
-                  </a> <!-- activeStudent -->
-                  <span class="method-name">activeStudent</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Activate Account&apos;]&quot;}
-  (Session info: chrome=134.0.6998.178)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8d89e4e10fb06f2d6531983c04267447, findElement {using=xpath, value=//span[text()=&apos;Activate Account&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\RUSHIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65153}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65153/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8d89e4e10fb06f2d6531983c04267447
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at learner.ActiveStudent.activeStudent(ActiveStudent.java:40)
-	at learnerAllTest.validateStatusTest.activeStudent(validateStatusTest.java:68)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">learnerAllTest.validateStatusTest</span>
+              <span class="class-name">assesment.AssesmentTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addLearner">
-                  </a> <!-- addLearner -->
-                  <span class="method-name">addLearner</span>
+                  <a name="createAssesment">
+                  </a> <!-- createAssesment -->
+                  <span class="method-name">createAssesment</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="assigAcademicDetails">
-                  </a> <!-- assigAcademicDetails -->
-                  <span class="method-name">assigAcademicDetails</span>
+                  <a name="createTrack">
+                  </a> <!-- createTrack -->
+                  <span class="method-name">createTrack</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validateStatus">
-                  </a> <!-- validateStatus -->
-                  <span class="method-name">validateStatus</span>
+                  <a name="examPublish">
+                  </a> <!-- examPublish -->
+                  <span class="method-name">examPublish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillTrack">
+                  </a> <!-- fillTrack -->
+                  <span class="method-name">fillTrack</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -249,7 +172,7 @@ Session ID: 8d89e4e10fb06f2d6531983c04267447
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Rushikesh Sadgir\AppData\Local\Temp\testng-eclipse-212127595\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Rushikesh Sadgir\AppData\Local\Temp\testng-eclipse--1329007998\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -258,7 +181,7 @@ Session ID: 8d89e4e10fb06f2d6531983c04267447
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;learnerAllTest.validateStatusTest&quot;/&gt;
+      &lt;class name=&quot;assesment.AssesmentTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -300,26 +223,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'assigAcademicDetails')
-data.setCell(0, 2, 'learnerAllTest.validateStatusTest')
-data.setCell(0, 3, 26523);
+data.setCell(0, 1, 'fillTrack')
+data.setCell(0, 2, 'assesment.AssesmentTest')
+data.setCell(0, 3, 22902);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addLearner')
-data.setCell(1, 2, 'learnerAllTest.validateStatusTest')
-data.setCell(1, 3, 12046);
+data.setCell(1, 1, 'createAssesment')
+data.setCell(1, 2, 'assesment.AssesmentTest')
+data.setCell(1, 3, 21679);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'activeStudent')
-data.setCell(2, 2, 'learnerAllTest.validateStatusTest')
-data.setCell(2, 3, 2552);
+data.setCell(2, 1, 'examPublish')
+data.setCell(2, 2, 'assesment.AssesmentTest')
+data.setCell(2, 3, 12421);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validateStatus')
-data.setCell(3, 2, 'learnerAllTest.validateStatusTest')
-data.setCell(3, 3, 1532);
+data.setCell(3, 1, 'createTrack')
+data.setCell(3, 2, 'assesment.AssesmentTest')
+data.setCell(3, 3, 8545);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 42 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -331,37 +254,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">validateStatus</span>
+              <span class="reporter-method-name">examPublish</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Student Status is: ACTIVE</span>
-                <span class="reporter-method-output">Student Status validated successfully</span>
-                <span class="reporter-method-output">Taking Screenshot</span>
+                <span class="reporter-method-output">Track filled successfully</span>
                 <span class="reporter-method-output">Test Case Success...</span>
                 <span class="reporter-method-output">WebDriver instance is null. Cannot capture screenshot.</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">addLearner</span>
+              <span class="reporter-method-name">fillTrack</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Learner added successfully</span>
-                <span class="reporter-method-output">Taking Screenshot</span>
+                <span class="reporter-method-output">Track filled successfully</span>
                 <span class="reporter-method-output">Test Case Success...</span>
                 <span class="reporter-method-output">WebDriver instance is null. Cannot capture screenshot.</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">assigAcademicDetails</span>
+              <span class="reporter-method-name">createAssesment</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Learner added successfully</span>
-                <span class="reporter-method-output">Taking Screenshot</span>
+                <span class="reporter-method-output">Assesment Created successfully</span>
                 <span class="reporter-method-output">Test Case Success...</span>
                 <span class="reporter-method-output">WebDriver instance is null. Cannot capture screenshot.</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">activeStudent</span>
+              <span class="reporter-method-name">createTrack</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">TC is Failed Please Check</span>
+                <span class="reporter-method-output">Track Created successfully</span>
+                <span class="reporter-method-output">Test Case Success...</span>
                 <span class="reporter-method-output">WebDriver instance is null. Cannot capture screenshot.</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -380,61 +300,31 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">learnerAllTest.validateStatusTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">assesment.AssesmentTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">launch</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">login</span>
-                <span class="method-start">13796 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">addLearner</span>
-                <span class="method-start">13798 ms</span>
+                <span class="method-name">createAssesment</span>
+                <span class="method-start">12045 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">loggingOut</span>
-                <span class="method-start">25851 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">login</span>
-                <span class="method-start">25856 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">assigAcademicDetails</span>
-                <span class="method-start">25858 ms</span>
+                <span class="method-name">createTrack</span>
+                <span class="method-start">33742 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">loggingOut</span>
-                <span class="method-start">52385 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">login</span>
-                <span class="method-start">52386 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">activeStudent</span>
-                <span class="method-start">52387 ms</span>
+                <span class="method-name">fillTrack</span>
+                <span class="method-start">42293 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">loggingOut</span>
-                <span class="method-start">54954 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">login</span>
-                <span class="method-start">54958 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validateStatus</span>
-                <span class="method-start">54959 ms</span>
+                <span class="method-name">examPublish</span>
+                <span class="method-start">65204 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">loggingOut</span>
-                <span class="method-start">56496 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">77634 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -57,7 +57,7 @@ public class MultiSubjectTrackAssesmentTest extends BaseClass {
 	@Test(priority = 3)
 	public void fillTrack() throws IOException, ParseException, InterruptedException {
 		mse.examjsonRead();
-		// mse.filltrack();
+		mse.filltrack();
 
 		Reporter.log("Track filled successfully");
 	}

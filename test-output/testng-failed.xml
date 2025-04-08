@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="learnerAllTest.validateStatusTest">
+      <class name="assesment.AssesmentTest">
         <methods>
-          <include name="activeStudent"/>
-          <include name="loggingOut"/>
-          <include name="login"/>
           <include name="launch"/>
+          <include name="fillTrack"/>
+          <include name="closeBrowser"/>
+          <include name="examPublish"/>
         </methods>
-      </class> <!-- learnerAllTest.validateStatusTest -->
+      </class> <!-- assesment.AssesmentTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
