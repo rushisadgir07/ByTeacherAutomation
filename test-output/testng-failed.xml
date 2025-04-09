@@ -3,13 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="byTeachers.AcademicAddTest">
+      <class name="assesment.AssesmentTest">
         <methods>
-          <include name="addSubject"/>
-          <include name="addClassRoom"/>
-          <include name="beforeClass"/>
+          <include name="launch"/>
+          <include name="fillTrack"/>
+          <include name="createAssesment"/>
+          <include name="closeBrowser"/>
+          <include name="examPublish"/>
+          <include name="createTrack"/>
         </methods>
-      </class> <!-- byTeachers.AcademicAddTest -->
+      </class> <!-- assesment.AssesmentTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

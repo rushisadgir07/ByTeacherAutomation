@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>Velocity</groupId>
+    <groupId>ByTeacher</groupId>
     <artifactId>My_Project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
@@ -21,12 +21,12 @@
             <version>4.6.0</version>
         </dependency>
 
-        <!-- TestNG Dependency -->
+        <!-- TestNG Dependency (scope changed to compile) -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.6.1</version>
-            <scope>test</scope>
+            <scope>compile</scope>
         </dependency>
 
         <!-- Apache POI Dependency (for working with Excel files) -->
@@ -54,8 +54,39 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.24</version> <!-- Updated to latest version -->
+            <version>1.18.24</version>
             <scope>provided</scope>
+        </dependency>
+
+        <!-- Jackson Core, Databind, and Annotations -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.15.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.15.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>2.15.2</version>
+        </dependency>
+
+        <!-- Spring Core (for @Component, @Service, etc.) -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.3.33</version>
+        </dependency>
+
+        <!-- Custom Google Dependency -->
+        <dependency>
+            <groupId>com.google</groupId>
+            <artifactId>MavenProject</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <!-- Custom Automation Dependency -->
@@ -72,14 +103,13 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version> <!-- You can update to the latest stable version if available -->
+                <version>3.0.0-M5</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>Mavtestng.xml</suiteXmlFile>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
 </project>
