@@ -83,14 +83,13 @@
         </dependency>
 
         <!-- Custom Google Dependency -->
-        <dependency>
-            <groupId>com.google</groupId>
-            <artifactId>MavenProject</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
 
         <!-- Custom Automation Dependency -->
-       
+        <dependency>
+            <groupId>com.byteacher</groupId>
+            <artifactId>automation</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>
