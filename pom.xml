@@ -90,11 +90,7 @@
         </dependency>
 
         <!-- Custom Automation Dependency -->
-        <dependency>
-            <groupId>com.byteacher</groupId>
-            <artifactId>automation</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+       
     </dependencies>
 
     <build>
