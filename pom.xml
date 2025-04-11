@@ -7,14 +7,8 @@
     <artifactId>My_Project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <!-- Java version set to 21 -->
-    <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
-    </properties>
-
     <dependencies>
-        <!-- Selenium - Updated -->
+        <!-- Selenium -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -36,7 +30,7 @@
             <version>5.2.3</version>
         </dependency>
 
-        <!-- MapStruct - Updated -->
+        <!-- MapStruct -->
         <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
@@ -50,7 +44,7 @@
             <version>2.4.7</version>
         </dependency>
 
-        <!-- Lombok - Updated -->
+        <!-- Lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -92,7 +86,17 @@
 
     <build>
         <plugins>
-            <!-- Surefire Plugin - Updated -->
+            <!-- Maven Compiler Plugin (Java 21 compatible) -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <release>21</release>
+                </configuration>
+            </plugin>
+
+            <!-- Surefire Plugin for TestNG -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
