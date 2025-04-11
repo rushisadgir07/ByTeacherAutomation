@@ -7,21 +7,21 @@
     <artifactId>My_Project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <!-- Set Java version to 11 -->
+    <!-- Java version set to 21 -->
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
     </properties>
 
     <dependencies>
-        <!-- Selenium Dependency -->
+        <!-- Selenium - Updated -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.6.0</version>
+            <version>4.19.1</version>
         </dependency>
 
-        <!-- TestNG Dependency (scope changed to compile) -->
+        <!-- TestNG -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -29,36 +29,36 @@
             <scope>compile</scope>
         </dependency>
 
-        <!-- Apache POI Dependency (for working with Excel files) -->
+        <!-- Apache POI -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>5.2.3</version>
         </dependency>
 
-        <!-- MapStruct Dependency (for object mapping) -->
+        <!-- MapStruct - Updated -->
         <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
-            <version>1.4.2.Final</version>
+            <version>1.5.5.Final</version>
         </dependency>
 
-        <!-- JSON Smart Dependency (for JSON processing) -->
+        <!-- JSON Smart -->
         <dependency>
             <groupId>net.minidev</groupId>
             <artifactId>json-smart</artifactId>
             <version>2.4.7</version>
         </dependency>
 
-        <!-- Lombok Dependency (for reducing boilerplate code) -->
+        <!-- Lombok - Updated -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
+            <version>1.18.30</version>
             <scope>provided</scope>
         </dependency>
 
-        <!-- Jackson Core, Databind, and Annotations -->
+        <!-- Jackson -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
@@ -75,14 +75,12 @@
             <version>2.15.2</version>
         </dependency>
 
-        <!-- Spring Core (for @Component, @Service, etc.) -->
+        <!-- Spring Context -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>5.3.33</version>
         </dependency>
-
-        <!-- Custom Google Dependency -->
 
         <!-- Custom Automation Dependency -->
         <dependency>
@@ -94,11 +92,11 @@
 
     <build>
         <plugins>
-            <!-- Surefire Plugin for running TestNG -->
+            <!-- Surefire Plugin - Updated -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version>
+                <version>3.1.2</version>
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
