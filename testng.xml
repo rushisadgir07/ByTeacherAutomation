@@ -4,7 +4,7 @@
   <test name="OnlyChromeTest">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="assesment.AssesmentTest"/>
+      <class name="assesment.AssesmentMultiTrackTest" />
     </classes>
   </test>
 </suite>
