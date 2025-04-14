@@ -71,18 +71,18 @@ public class AcademicAddTest extends BaseClass {
 		NewUtilityStudy.screenshot(driver, "CourseAdded");
 	}
 
-//	@Test(priority = 4)
-//	public void addSubject() throws ParseException, IOException, InterruptedException {
-//		s.selectSubject();
-//		NewUtilityStudy.screenshot(driver, "SubjectSelection");
-//	}
-//
-//	@Test(priority = 5)
-//	public void addBatch() throws ParseException, IOException, InterruptedException {
-//		b.batchjsonRead();
-//		b.addBatch();
-//		NewUtilityStudy.screenshot(driver, "BatchAdded");
-//	}
+	@Test(priority = 4)
+	public void addSubject() throws ParseException, IOException, InterruptedException {
+		s.selectSubject();
+		NewUtilityStudy.screenshot(driver, "SubjectSelection");
+	}
+
+	@Test(priority = 5)
+	public void addBatch() throws ParseException, IOException, InterruptedException {
+		b.batchjsonRead();
+		b.addBatch();
+		NewUtilityStudy.screenshot(driver, "BatchAdded");
+	}
 
 	@Test(priority = 6)
 	public void addClassRoom() throws ParseException, IOException, InterruptedException {
@@ -90,10 +90,10 @@ public class AcademicAddTest extends BaseClass {
 		cr.addnormlVClassroom();
 		NewUtilityStudy.screenshot(driver, "ClassroomAdded");
 	}
-//
-//	@AfterClass
-//	public void afterClass() {
-//		driver.close();
-//	}
+
+	@AfterClass
+	public void afterClass() {
+		driver.close();
+	}
 
 }

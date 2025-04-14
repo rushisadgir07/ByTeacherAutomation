@@ -54,6 +54,6 @@ public class WorkTimingTest extends BaseClass {
 
 	@AfterClass
 	public void closebrowser() {
-	 //driver.close();
+	 driver.close();
 	}
 }

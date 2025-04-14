@@ -71,16 +71,10 @@ public class AssignMultipleCourseTest extends BaseClass {
 		NewUtilityStudy.screenshot(driver, "learnerAdded");
 		ad.secondCourse();
 	}
-	
-	
 
 	@AfterMethod
 	public void loggingOut() throws InterruptedException {
-		driver.quit();
-	}
-
-	public void closeBrowser() throws InterruptedException {
-
+		driver.close();
 	}
 
 }

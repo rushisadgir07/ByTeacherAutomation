@@ -2,23 +2,23 @@
   "AcademicS": [
     {
       "SessionName": "New Session Test",
-      "startDate": "3/1/2024",
-      "endDate": "5/23/2026"
+      "startDate": "10/1/2024",
+      "endDate": "10/23/2026"
     }
   ],
   "Batch": [
     {
-      "BatchName": "Test New batch 3001"
+      "BatchName": "New batch 3001"
     }
   ],
   "Course": [
     {
-      "CourseName": "JEE Advance Test New"
+      "CourseName": "JEE mainse Updated Course"
     }
   ],
   "Classroom": [
     {
-      "ClassroomName": "Test new classroom 1"
+      "ClassroomName": "Test classroom 1"
     }
   ]
 }
