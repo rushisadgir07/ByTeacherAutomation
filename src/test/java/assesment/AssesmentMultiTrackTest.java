@@ -71,7 +71,7 @@ public class AssesmentMultiTrackTest extends BaseClass {
 
 	@AfterClass
 	public void closeBrowser() throws InterruptedException {
-		driver.close();
+		//driver.close();
 
 	}
 }

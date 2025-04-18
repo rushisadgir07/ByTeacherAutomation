@@ -5,6 +5,8 @@
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="assesment.AssesmentMultiTrackTest" />
+      <class name="assesment.AssesmentTest" />
+    
     </classes>
   </test>
 </suite>
